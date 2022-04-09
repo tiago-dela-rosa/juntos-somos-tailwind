@@ -1,0 +1,7 @@
+.item {
+  @apply ssm:flex-1 ssm:text-center ssm:text-xs ssm:self-center ssm:hover:bg-transparent hover:bg-white cursor-pointer py-4 px-6 text-sm text-gray-4 font-semibold leading-4 transition ease-linear;
+}
+
+.item_selected {
+  @apply ssm:bg-transparent bg-white;
+}

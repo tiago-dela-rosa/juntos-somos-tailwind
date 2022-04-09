@@ -1,0 +1,20 @@
+.button-primary,
+.button-transparent {
+  @apply font-bold border py-3 px-6 rounded-4xl transition-colors duration-200;
+}
+
+.button-primary {
+  @apply bg-primary border-primary text-white;
+}
+
+.button-primary:hover {
+  @apply bg-primary-light;
+}
+
+.button-transparent {
+  @apply border-0;
+}
+
+.button-transparent:hover {
+  @apply bg-gray-1;
+}
