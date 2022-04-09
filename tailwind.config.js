@@ -3,7 +3,11 @@ const colors = require("./src/theme/colors.js");
 const screens = require("./src/theme/screens.js");
 
 module.exports = {
-  content: ["./src/index.html", "./src/**/*.{tsx,ts,js}"],
+  content: [
+    "./src/index.html",
+    "./src/**/*.{tsx,html,ts,js}",
+    "./dist/**/*.{html,js}",
+  ],
   theme: {
     container: {
       center: true,
